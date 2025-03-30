@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Study Notes Web App</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=contrast" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    body{
+        background-color: white;
+        color: black;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    header ul {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(215, 165, 37);
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+    header ul li {
+        list-style: none;
+    }
+
+    header ul li a {
+        text-decoration: none;
+        color: rgb(4, 7, 7);
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    header ul li a:hover {
+        color: rgb(94, 37, 37);
+        /* transition: red 2s ease-in-out 0.5s; */
+    }
+    .material-symbols-outlined{
+        cursor: pointer;
+        font-size: 28px;
+        /* margin-left: auto; */
+    }
+    .notes{
+        display: flex;
+        flex-direction: column;
+
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+    .submit{
+        padding: 0.5rem;
+        margin: 1rem;
+    }
+</style>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Create Notes</a></li>
+            <li><a href="#">View Notes</a></li>
+            <li><a href="#">Settings</a></li>
+            <span class="material-symbols-outlined" id="theme-toggle">
+                contrast
+            </span>
+        </ul>
+
+    </header>
+    <!-- Notes creative form -->
+    <main>
+        <h3>Create Notes here...</h3>
+        <div class="notes">
+        <label>Title </label>
+        <input type="text" name="title" id="title"><br>
+        <label>Notes </label>
+        <textarea name="description" id="description"></textarea><br>
+        <label for="">Priority</label>
+        <select name="" id="">
+            <option value="1">High</option>
+            <option value="2">Medium</option>
+            <option value="3">Low</option>
+        </select>
+        <label for="">Upload Digram </label>
+        <input type="file" placeholder="Upload here Digram">
+        </div>
+        <button class="submit">submit button</button>
+    </main>
+</body>
+
+</html>
+<script>
+    // let theme = document.getElementById('theme-toggle')
+    // if(localStorage.getItem)
+    // theme.addEventListener('click', () => {
+        
+    // })
+</script>
