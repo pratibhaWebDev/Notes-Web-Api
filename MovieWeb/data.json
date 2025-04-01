@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Inception",
+      "year": 2010,
+      "genre": "Sci-Fi",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQovCe0H45fWwAtV31ajOdXRPTxSsMQgPIQ3lcZX_mAW0jXV3kH&psig=AOvVaw3QN6cwjHXobTiYx17sNzV4&ust=1743411442172000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKjvs--3sYwDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": 2,
+      "title": "Interstellar",
+      "year": 2014,
+      "genre": "Sci-Fi",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngBJ0B7UDrLUkDlp6DCQLsEYuWR-DiHwbnxFFCniB3HiP3f3NZmR1-lKSC34ge6YXu4LX"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genre": "Action",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQkUywIUXDjHSQJIaNHYVs08osgBpF5Ot-xmB_omyEZeeRP9Xug&psig=AOvVaw1Hz0bbhA2aBAfQs0d5gu2a&ust=1743411489632000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJC22oW4sYwDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": 4,
+      "title": "Titanic",
+      "year": 1997,
+      "genre": "Romance",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0120338%2F&psig=AOvVaw0IDbbFUxANvxaumxDUzClg&ust=1743411511229000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjbqpC4sYwDFQAAAAAdAAAAABAE"
+    },
+    {
+      "id": 5,
+      "title": "Avatar",
+      "year": 2009,
+      "genre": "Sci-Fi",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwhumpapedia.fandom.com%2Fwiki%2FAvatar&psig=AOvVaw2N7shJpdV2xjp9VMq8pX-C&ust=1743411528352000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjY-Jm4sYwDFQAAAAAdAAAAABAE"
+    }
+  ]
+  
